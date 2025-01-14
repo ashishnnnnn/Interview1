@@ -1,0 +1,16 @@
+.cartConatiner{
+    display: flex;
+    align-items: flex-start;
+}
+
+.carts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.total{
+    font-size: 22px;
+    font-weight: 600;
+}
