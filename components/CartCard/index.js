@@ -15,6 +15,7 @@ function CartCard(props){
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`HTTP error! Status: ${res.status}`);
+                    // Since API is thowing error while addition
                 }
                 return res.json();
             })

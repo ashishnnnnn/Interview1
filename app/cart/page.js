@@ -19,6 +19,7 @@ function Cart() {
                 {
                     cart.map((item) => {
                         if (item.cartQuantity) {
+                            // Since some cartQuantity is zero .. no point to show them in cart list
                             return <CartCard id={item.productId} key={item.productId} imageUrl={item.imageUrl} name={item.name} price={item.price} qty={item.cartQuantity} />
                         }
                     })
